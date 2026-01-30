@@ -11,18 +11,20 @@
   },
   "keywords": [],
   "type": "module",
-  "author": "Brian Holt",
+  "author": "Ivan Kochergin",
   "license": "Apache-2.0",
-  "description": "The Complete Intro to React v9, as taught by Brian Holt for Frontend Masters",
+  "description": "menu-app",
   "devDependencies": {
     "@vitejs/plugin-react": "5.1.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
     "globals": "^17.2.0",
     "prettier": "3.8.1",
     "vite": "^7.3.1"
   },
   "dependencies": {
+    "@eslint/js": "^9.39.2",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   }
