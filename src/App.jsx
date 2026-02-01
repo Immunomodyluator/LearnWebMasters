@@ -1,12 +1,17 @@
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import PizzaOfTheDay from './PizzaOfTheDay.jsx';
 import Order from './Order.jsx';
 
 const App = () => {
   return (
-    <div>
-      <h1 className="">Immuno cafe</h1>
-      <Order />
-    </div>
+    <StrictMode>
+      <div>
+        <h1 className="">Immuno cafe</h1>
+        <Order />
+        <PizzaOfTheDay />
+      </div>
+    </StrictMode>
   );
 };
 
